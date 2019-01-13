@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/custom/custom",
+    "pages/custom2/custom2"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "路由跳转Demo",
+    "navigationStyle": "default ",
+    "backgroundColor": "#ffffff",
+    "backgroundTextStyle": "light"
+  }
+}

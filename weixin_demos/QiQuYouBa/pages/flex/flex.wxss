@@ -1,0 +1,54 @@
+/* pages/flex/flex.wxss */
+
+/* .outer{
+  height: 375px;
+  width: 100%;
+  border: 1px solid #cccc;
+
+  /*flex布局*/
+  /* display: flex;
+  /*横轴均等分布*/
+  /* justify-content: space-around;
+  /*纵轴居中*/
+  /* align-items: center;
+} */
+
+/*.inner{
+  height: 50px;
+  width: 50px;
+}
+
+#box1{
+  background-color: red;
+}
+
+#box2{
+  background-color: yellow;
+}
+
+#box3{
+  background-color: yellowgreen;
+}*/
+
+/*按压状态*/
+/*.pressed{
+  box-shadow: 0 0 10px black;
+}*/
+
+/*
+button{
+  width: 375px;
+}*/
+
+.container{
+  height: 375px;
+  width: 100%;
+  border: 1px solid #cccc;
+
+  /*flex布局*/
+  display: flex;
+  /*横轴均等分布*/
+  justify-content: space-around;
+  /*纵轴居中*/
+  align-items: center;
+}

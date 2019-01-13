@@ -1,0 +1,33 @@
+<!--<text>pages/flex/flex.wxml</text>
+
+<!--<view class='outer'>
+  <view class='inner' id='box1' hover-class='pressed'>1</view>
+  <view class='inner' id='box2' hidden='true'>2</view>
+  <view class='inner' id='box3'>3</view>
+</view>
+
+<view class='outer2'>
+  <button>Contents：{{contents}}</button>
+<!--</view>-->
+
+<!-- 列表渲染 -->
+<!-- <view class='outer'>
+  <view wx:for="{{array}}">
+    {{index}}-{{item.name}}
+  </view>
+</view>-->
+
+<!-- 条件渲染 -->
+<!-- <view wx:if="{{condition}}">这里是否显示取决于条件</view> -->
+
+<!-- <view class='outer'>
+  <view wx:if="{{length>5}}">条件大于5</view>
+  <view wx:elif="{{length<2}}">条件小于2</view>
+  <view wx:else>其他情况</view>
+</view> -->
+
+<view class="container">
+  <!-- 如果写成 "{{num}}" 表示字符串 -->
+  <view>{{num}}</view>
+  <button  bindtap="addOne">点击加一</button>
+</view>

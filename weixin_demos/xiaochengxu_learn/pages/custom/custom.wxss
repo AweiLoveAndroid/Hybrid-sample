@@ -1,0 +1,12 @@
+/* pages/custom/custom.wxss */
+
+.listItem{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.listImg{
+    width: 100%;
+    height: 200rpx;  
+}

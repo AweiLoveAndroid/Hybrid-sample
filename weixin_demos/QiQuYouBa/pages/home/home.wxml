@@ -1,0 +1,3 @@
+<!--pages/home/home.wxml-->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class="container">这是主页</view>

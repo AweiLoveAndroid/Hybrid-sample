@@ -1,0 +1,59 @@
+<!-- pages/home/home.wxml -->
+<!-- <text>pages/home/home.wxml</text> -->
+<view class="container">
+    <view class="swipers">
+        <swiper indicator-dots="{{true}}" indicator-color="#fff" indicator-active-color="#87C6FF" autoplay="{{true}}" interval='3000' circular='true'>
+            <!-- <swiper-item>
+            <image src="../images/banner1.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../images/banner2.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../images/banner3.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../images/banner4.jpg"></image>
+        </swiper-item>
+        <swiper-item>
+            <image src="../images/banner5.jpg"></image>
+        </swiper-item> -->
+            <!-- 优化一下，使用列表循环 -->
+            <swiper-item wx:for="{{banners}}" wx:for-item="banner">
+                <image src='{{banner.imgUrl}}' width="355" height="150"></image>
+            </swiper-item>
+            <!-- 文件名有规律的循环，可以使用这种方式 -->
+            <!-- <swiper-item wx:for="{{[1,2,3]}}" wx:for-item="banner">
+            <image src='../images/{{banner}}.jpg'></image>
+        </swiper-item> -->
+        </swiper>
+    </view>
+    <!-- 图标导航 -->
+    <view class="navs">
+        <view class="nav-item" wx:for="{{icons}}" wx:for-item="icon">
+            <image class="iconPic" src='{{icon.imgUrl}}'></image>
+            <view class='iconTitle'>{{icon.name}}</view>
+        </view>
+    </view>
+    <!-- 文章页 -->
+    <view class="article">
+        <view class="article-item" wx:for="{{articles}}" wx:for-item="article">
+            <navigator url="{{article.link}}" open-type="navigate">
+                <image class="articlePic" src='{{article.imgUrl}}' mode="aspectFill"></image>
+                <view class="articleTitle">{{article.title}}</view>
+            </navigator>
+        </view>
+    </view>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+

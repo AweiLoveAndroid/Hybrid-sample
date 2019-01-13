@@ -1,0 +1,9 @@
+<!-- pages/article01/article01.wxml -->
+<!-- <text>pages/article01/article01.wxml</text> -->
+<view class="container">
+    <view class="articleCon">
+        <image class="articleImg" src="{{article.imgUrl}}"  mode="widthFix"></image>
+        <text class="title">{{article.title}}</text>
+        <text class="content" decode="true">{{article.content}}</text>
+    </view>
+</view>

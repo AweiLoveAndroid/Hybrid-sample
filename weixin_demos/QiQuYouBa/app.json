@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/user/user"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#0094ff",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "奇趣游吧",
+    "backgroundColor": "#000",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list":[{
+        "pagePath":"pages/home/home",
+        "text":"首页",
+        "iconPath":"images/home.png",
+        "selectedIconPath":"images/home-selected.png"
+      }, {
+        "pagePath":"pages/user/user",
+        "text":"我的",
+        "iconPath":"images/user.png",
+        "selectedIconPath":"images/user-selected.png"
+      }],
+      "selectedColor":"#f00",
+      "position":"bottom"
+  }
+}

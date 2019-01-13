@@ -1,0 +1,8 @@
+<!-- pages/custom/custom.wxml -->
+
+    <scroll-view scroll-y="true">
+        <view wx:for="{{lists}}" class="listItem" bindtap="detail" data-id="{{item.id}}">
+            <image src="{{item.imgUrl}}" class="listImg" mode="aspectFit" />
+            <view class="listTitle">{{item.title}}</view>
+        </view>
+    </scroll-view>

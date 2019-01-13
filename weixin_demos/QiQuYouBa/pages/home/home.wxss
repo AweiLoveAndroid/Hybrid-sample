@@ -1,0 +1,14 @@
+/* pages/home/home.wxss */
+
+.container{
+    height: 375px;
+    width: 100%;
+   
+  
+    /*flex布局*/
+    display: flex;
+    /*横轴均等分布*/
+    justify-content: space-around;
+    /*纵轴居中*/
+    align-items: center;
+  }

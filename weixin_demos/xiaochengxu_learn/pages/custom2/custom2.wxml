@@ -1,0 +1,3 @@
+<!--pages/custom2/custom2.wxml-->
+<text>pages/custom2/custom2.wxml\n</text>
+<text>当前的id是：{{lists.id}}</text>
